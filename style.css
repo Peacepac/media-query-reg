@@ -1,0 +1,130 @@
+@import url(https://fonts.google.com/specimen/lexend+Deaca);
+@import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 900;
+  }
+  
+  li a:hover {
+    background-color: #111;
+    color: #fff;
+    font-weight: 700;
+  }
+  .active{
+    background-color: blanchedalmond;
+    color:#111;
+    font-weight: 700;
+  }
+
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    min-height: 100vh;
+}
+.container-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width:1440px;
+    flex-flow:wrap;
+ 
+}
+
+.box{
+    padding: 15px;
+    width: 269px;
+    min-height: 430px;
+    
+}
+
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.content{
+    padding: 10px;
+}
+
+h1{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 20px 0;
+
+}
+p{
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family: 'Big Shoulders Display'cursive;
+}
+
+.btn{
+    margin: 60px 0;
+    padding: 15px 40px;
+    border: 0;
+    border-radius: 30px;
+    outline: none;
+    background-color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 700;
+
+}
+.btn-sedans{
+    color:hsl(31, 77%, 52%) ;
+
+}
+
+.btn-suvs{
+    color:hsl(184, 100%, 22%);
+
+}
+.btn-luxury{
+    color:hsl(179, 100%, 13%) ;
+
+}
+
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    transition: 0.4s;
+}

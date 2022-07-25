@@ -1,0 +1,164 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: #000;
+  color: white;
+  
+}
+
+main{
+  max-width: 500px;
+  display: grid;
+ 
+  gap: 5px;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.item {
+  text-align: center;
+  padding: 20px;
+}
+
+.one{
+  background: orangered;
+  grid-column: 1/ span 3;
+  grid-row: 1/ span 2;
+}
+
+.two{
+  background-color: rgba(241, 200, 15, 0.877);
+  grid-column: 4/ span 1;
+  grid-row: 1/ span 3;
+}
+
+.three{
+  background-color: green;
+  grid-column: 1/ span 2;
+  grid-row: 3/ span 2;
+} 
+
+.four{
+  background-color: rgb(35, 107, 241);
+  grid-column: 3/ span 2;
+  grid-row: 3;
+} 
+
+.five{
+  background-color:  rgb(35, 107, 241);
+  grid-column: 3/ span 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 900;
+  }
+  
+  li a:hover {
+    background-color: #fff;
+    color: #333;
+    font-weight: 700;
+  }
+  .active{
+    background-color: blanchedalmond;
+    color:#111;
+    font-weight: 700;
+  }
+
+
+
+  *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #1c1c1c;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+  }
+
+main{
+    display: grid;
+    grid-template-areas:
+    "a a b"
+    "c d d"
+    "c e e";
+    grid-template-columns: 200px 150px 210px;
+    grid-template-rows: 180px 90px 120px;
+    gap: 12px;
+    width: 50%;
+}
+main div {
+    padding: 2em;
+    text-align: center;
+}
+.item-a{
+    background-color: red;
+    grid-area: a;
+}
+.item-b {
+    background-color: orange;
+    grid-area: b;
+}
+.item-c{
+    background-color: green;
+    grid-area: c;
+}
+.item-d {
+    background-color: #2fa5f5;
+    grid-area: d;
+    align-self: end;
+}
+.item-e {
+    background-color: #2fa5f5;
+    grid-area: e;
+    align-self: end;
+}
+
+ */
